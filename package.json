@@ -1,0 +1,22 @@
+{
+  "name": "ipinspector",
+  "version": "1.0.0",
+  "description": "A small nodejs api to find general info of a particular coming ip request",
+  "main": "app.js",
+  "repository": "https://github.com/codenm007/ipinspector.git",
+  "author": "Nilanjan Majumdar",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "create_roles": "node role.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ip-locator": "^0.0.1",
+    "node-iplocate": "^1.0.2",
+    "nodemon": "^2.0.4",
+    "weather-js": "^2.0.0"
+  }
+}
